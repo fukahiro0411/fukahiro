@@ -40,9 +40,10 @@ div.main1,.main2,.main3{
 }
 div.sub1,.sub2{
   float: left;
+  widht:2%;
 }
 h3{
-  padding: 1%;
+  padding: 100%;
 }
 h2{
   margin-left: -5;
