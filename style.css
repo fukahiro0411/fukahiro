@@ -39,8 +39,10 @@ div.main1,.main2,.main3{
   width: 31%;
 }
 div.sub1,.sub2{
-  padding: 1%;
   float: left;
+}
+h3{
+  padding: 1%;
 }
 h2{
   margin-left: -5;
