@@ -5,6 +5,9 @@ body{
   height: 100%;
   background:rgba(255, 90, 0, 0.53);
 }
+div.one{
+  height:100%;
+}
 header{
   position: fixed;
   top: 0;
