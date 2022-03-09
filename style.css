@@ -15,6 +15,13 @@ header{
   bottom:50;
   margin:0;
 }
+nobr{
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:50;
+  margin:0;
+}
 /*sub*/
 .text{
   font-family: cursive;
