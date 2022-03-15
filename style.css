@@ -4,6 +4,7 @@ html{
 body{
   height: 100%;
   background:rgba(255, 90, 0, 0.53);
+  user-select: none;
 }
 div.one{
   height:100%;
