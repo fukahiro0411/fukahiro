@@ -1,1 +1,12 @@
 /*CSS*/
+html,body{
+  height:100%;
+  width:100%;
+}
+.img{
+  height:30px;
+  width:30px;
+  position:relative;
+  left:3%;
+  top:3%;
+}
