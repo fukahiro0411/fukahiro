@@ -9,4 +9,6 @@ html,body{
   position:relative;
   left:3%;
   top:3%;
+  margin:0;
+  padding:0;
 }
