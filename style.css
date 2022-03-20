@@ -1,17 +1,1 @@
 /*CSS*/
-html,body{
-  height:100%;
-  width:100%;
-}
-.img{
-  height:30px;
-  width:30px;
-  position:relative;
-  left:0;
-  top:0;
-  margin:0;
-  padding:0;
-}
-div.all{
-  text-align:center;
-}
