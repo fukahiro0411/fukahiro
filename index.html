@@ -1,22 +1,31 @@
-<HTML lang=ja>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.ico">	
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <title>Fukahiro|メンテナンス中です</title>
-  </head>
-  <body>
-    <div class="warota">
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <title>レスポンシブサイト</title>
+</head>
+<body>
+  <div class="warota">
+    <!--ヘッダー-->
+    <div class="pc">
       <section class="hero is-dark is-bold">
         <div class="tile is-ancestor">
-          <div class="tile is-1">
-            <figure class="image is-96x96">
-              <img src="icon.ico">
-            </figure>
+          <!--ヘッダーアイコンPC-->
+          <div class="pc">
+            <div class=" pc tile">
+              <figure class="image is-96x96">
+                <img src="icon.ico">
+              </figure>
+            </div>
           </div>
-          <div class="tile is-1">
+          <!--ヘッダーメニュー-->
+          <div class="pc tile is-1 ">
           </div>
-          <div class="tile is-10">
+          <div class="pc tile is-10 ">
             <div class="tabs is-right" style="width:95%;">
               <ul>
                 <li class="is-active"><a href="https://fukahiro.netlify.app/">ホーム</a></li>
@@ -26,17 +35,43 @@
             </div>
           </div>
         </div>
-      </section>
-      <div class="left">
-      <section class="hero">
+    </div>
+    <div class="sp">
+      <section class="hero is-dark is-bold" style="width=35px">
+        <!--ヘッダーアイコンSP-->
+        <div class="sp">
+          <div class="sp tile is-1 ">
+            <figure class="image is-48x48">
+              <img src="https://snsdays.com/wp-content/uploads/2017/01/img_6191.jpg">
+            </figure>
+          </div>
+        </div>
+    </div>
+    <!--ヘッダー終了-->
+    <div class="left">
+      <!--メインタイトル-->
+      <!--メインタイトルPC-->
+      <section class="pc hero ">
         <div class="hero-body">
           <div class="container">
-            <h1 class="title">
+            <h1 class="titlepc">
               只今メンテナンス中です
             </h1>
           </div>
         </div>
       </section>
+      <!--メインタイトルSP-->
+      <section class="sp hero ">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="titlesp">
+              只今メンテナンス中です
+            </h1>
+          </div>
+        </div>
+      </section>
+      <!--メインタイトル終了-->
+      <!--詳細-->
       <div class="content is-small">
         <h2>
         </h2>
@@ -44,34 +79,49 @@
          メンテナンスのため停止しています。<br>詳細は以下のとおりです。
         </h3>
       </div>
-      </div>
-       <table class="table is-striped is-fullwidth">
-        <tbody>
-          <tr>
-            <td>メンテナンス対象</td>
-            <td>このページ<a href="https://fukahiro.netlify.app">(https://fukahiro.netlify.app)</a></td>
-          </tr>
-          <tr>
-            <td>メンテナンス期間</td>
-            <td>3月17日〜</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="left">
+    </div>
+    <!--表PC-->
+    <table class="pc table is-striped is-fullwidth ">
+      <tbody>
+        <tr>
+          <td>メンテナンス対象</td>
+          <td>このページ<a href="https://fukahiro.netlify.app">(https://fukahiro.netlify.app)</a></td>
+        </tr>
+        <tr>
+          <td>メンテナンス期間</td>
+          <td>3月17日〜</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--表SP-->
+    <table class="sp table is-striped is-fullwidth ">
+      <tbody style="width:100%">
+        <tr>
+          <td>対象</td>
+          <td><a href="https://fukahiro.netlify.app">このページ</a></td>
+        </tr>
+        <tr>
+          <td>期間</td>
+          <td>3月17日〜</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="left">
       <div class="content is-small">
         <h3>
          大変ご迷惑をおかけしますが何卒ご理解の程よろしくおねがいします。
         </h3>
       </div>
-    </div></div>
-    <section class="hero is-primary">
-  <div class="hero-body">
-    <div class="container">
-      <div class="buttons is-left">
-        <a href="https://fukahiro.netlify.app/homeen.html"><button class="button is-success is-light is-right">English</button></a>
-        <a href="https://fukahiro.netlify.app/homeko"><button class="button is-success is-light is-right" disabled>한국어</button></a>
-      </div>
     </div>
   </div>
-</section>
-  </body>
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <div class="buttons is-left">
+          <a href="https://fukahiro.netlify.app/homeen.html"><button class="button is-success is-light is-right">English</button></a>
+          <a href="https://fukahiro.netlify.app/homeko"><button class="button is-success is-light is-right" disabled>한국어</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</html>
