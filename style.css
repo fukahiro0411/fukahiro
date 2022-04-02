@@ -1,40 +1,27 @@
 /* PC用CSS */
-html,body{height: 100%}
-
+html,body{
+  height: 100%
+}
+body{
+  font-family: serif;
+}
 
 .warota{
   height: 100%;
 }
-.titlepc{
-  color: #363636;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.125;
-  margin:0;
-  padding:0;
-}
-/*PC非表示*/
-.sp,.titlesp{
+
+.sp{
   display: none;
 }
 /* SP用CSS */
 @media screen and (max-width:771px) { /*画面幅740px以下はこのCSSを反映*/
 /*SP非表示*/
-.pc,.titlepc{
+.pc{
   display: none;
 }
+
 .sp {
 display: block;
-}
-
-.titlesp{
-  display: block;
-  color: #363636;
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 1.125;
-  margin:0;
-  padding:0;
 }
 
 }
